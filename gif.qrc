@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>gifResouce/7865D9DDF9BFD1C1640B51A2A38AAF7D.gif</file>
+        <file>gifResouce/B9761802DEF8BB285DE54742869CB040.gif</file>
+        <file>gifResouce/27A81379FB6D59957A65670CC3258204.gif</file>
+        <file>gifResouce/5C181136592248301C93932464D049D7.gif</file>
+        <file>gifResouce/2F266766DF74A1EF9203728D77538135.gif</file>
+        <file>gifResouce/82A95570D53F5B3AC092E11088CA7B85.gif</file>
+        <file>gifResouce/B2EFC10B5BC163C0DF3C735BEAA3164A.gif</file>
+        <file>gifResouce/DBB0CF6A051A4F3FF93AC92292607615.gif</file>
+    </qresource>
+</RCC>

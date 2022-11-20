@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>band</class>
+ <widget class="QDialog" name="band">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1048</width>
+    <height>721</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="drumBtn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>650</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>鼓-奏</string>
+   </property>
+   <property name="shortcut">
+    <string>F</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DJgif">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>290</y>
+     <width>191</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="drumgif">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>131</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="erhuBtn">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>650</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>二胡-奏</string>
+   </property>
+   <property name="shortcut">
+    <string>G</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="erhuGif">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>520</y>
+     <width>111</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pianoBtn">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>650</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>钢琴-奏</string>
+   </property>
+   <property name="shortcut">
+    <string>H</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pianoGif">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>150</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="togeBtn">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>590</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>大合奏-起</string>
+   </property>
+   <property name="shortcut">
+    <string>B</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="accordionBtn">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>650</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>手风琴-奏</string>
+   </property>
+   <property name="shortcut">
+    <string>J</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="celloBtn">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>650</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>大提琴-奏</string>
+   </property>
+   <property name="shortcut">
+    <string>D</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="violinBtn">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>650</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>小提琴-奏</string>
+   </property>
+   <property name="shortcut">
+    <string>K</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="guitarBtn">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>650</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>电吉他-奏</string>
+   </property>
+   <property name="shortcut">
+    <string>L</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accordionGif">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>490</y>
+     <width>131</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="celloGif">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="violinGif">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>300</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="guitarGif">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>490</y>
+     <width>131</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>690</y>
+     <width>541</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>鼓-F，二胡-G，钢琴-H，手风琴-J，大提琴-D，小提琴-K，电吉他-L，大合奏-B</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1051</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/src=http___bkimg.cdn.bcebos.com_pic_2e2eb9389b504fc2ebc4c5f4e2dde71191ef6da3&amp;refer=http___bkimg.cdn.bcebos.webp</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>drumBtn</zorder>
+  <zorder>DJgif</zorder>
+  <zorder>drumgif</zorder>
+  <zorder>erhuBtn</zorder>
+  <zorder>erhuGif</zorder>
+  <zorder>pianoBtn</zorder>
+  <zorder>pianoGif</zorder>
+  <zorder>togeBtn</zorder>
+  <zorder>accordionBtn</zorder>
+  <zorder>celloBtn</zorder>
+  <zorder>violinBtn</zorder>
+  <zorder>guitarBtn</zorder>
+  <zorder>accordionGif</zorder>
+  <zorder>celloGif</zorder>
+  <zorder>violinGif</zorder>
+  <zorder>guitarGif</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources>
+  <include location="photo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

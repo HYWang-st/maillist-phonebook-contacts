@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>LAV Filters/x86/avcodec-lav-58.dll</file>
+        <file>LAV Filters/x86/avfilter-lav-7.dll</file>
+        <file>LAV Filters/x86/avformat-lav-58.dll</file>
+        <file>LAV Filters/x86/avresample-lav-4.dll</file>
+        <file>LAV Filters/x86/avutil-lav-56.dll</file>
+        <file>LAV Filters/x86/IntelQuickSyncDecoder.dll</file>
+        <file>LAV Filters/x86/LAVAudio.ax</file>
+        <file>LAV Filters/x86/LAVFilters.Dependencies.manifest</file>
+        <file>LAV Filters/x86/LAVSplitter.ax</file>
+        <file>LAV Filters/x86/LAVVideo.ax</file>
+        <file>LAV Filters/x86/libbluray.dll</file>
+        <file>LAV Filters/x86/swscale-lav-5.dll</file>
+        <file>LAV Filters/x64/avcodec-lav-58.dll</file>
+        <file>LAV Filters/x64/avfilter-lav-7.dll</file>
+        <file>LAV Filters/x64/avformat-lav-58.dll</file>
+        <file>LAV Filters/x64/avresample-lav-4.dll</file>
+        <file>LAV Filters/x64/avutil-lav-56.dll</file>
+        <file>LAV Filters/x64/IntelQuickSyncDecoder.dll</file>
+        <file>LAV Filters/x64/LAVAudio.ax</file>
+        <file>LAV Filters/x64/LAVFilters.Dependencies.manifest</file>
+        <file>LAV Filters/x64/LAVSplitter.ax</file>
+        <file>LAV Filters/x64/LAVVideo.ax</file>
+        <file>LAV Filters/x64/libbluray.dll</file>
+        <file>LAV Filters/x64/swscale-lav-5.dll</file>
+    </qresource>
+</RCC>

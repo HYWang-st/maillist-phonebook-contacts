@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1524</width>
+    <height>823</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>学生通讯录系统</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1501</width>
+      <height>931</height>
+     </rect>
+    </property>
+    <widget class="QStackedWidget" name="stustack">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>0</y>
+       <width>1301</width>
+       <height>791</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="beginwid">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1341</width>
+         <height>791</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/327ba37fbfddcdc5d2efb1f100504ff.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="addStudent">
+      <widget class="QLabel" name="addlabel">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1341</width>
+         <height>791</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/addbackground.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>160</y>
+         <width>901</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <widget class="QPushButton" name="addokbutton">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>400</y>
+          <width>131</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="whitebackground">
+        <property name="geometry">
+         <rect>
+          <x>-60</x>
+          <y>0</y>
+          <width>901</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/addlabelbackground.webp</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>110</y>
+          <width>741</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <widget class="QComboBox" name="sexcombo">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>60</y>
+           <width>81</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>男</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>女</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QComboBox" name="acacombo">
+         <property name="geometry">
+          <rect>
+           <x>510</x>
+           <y>60</y>
+           <width>161</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="namelabel">
+         <property name="geometry">
+          <rect>
+           <x>9</x>
+           <y>60</y>
+           <width>45</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>*姓名：</string>
+         </property>
+         <property name="buddy">
+          <cstring>nameedit</cstring>
+         </property>
+        </widget>
+        <widget class="QLabel" name="numlabel">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>110</y>
+           <width>45</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>*学号：</string>
+         </property>
+         <property name="buddy">
+          <cstring>numedit</cstring>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="teleedit">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>110</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sexlabel">
+         <property name="geometry">
+          <rect>
+           <x>293</x>
+           <y>60</y>
+           <width>45</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>*性别：</string>
+         </property>
+         <property name="buddy">
+          <cstring>sexcombo</cstring>
+         </property>
+        </widget>
+        <widget class="QLabel" name="telelabel">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>110</y>
+           <width>45</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>*电话：</string>
+         </property>
+         <property name="buddy">
+          <cstring>teleedit</cstring>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="nameedit">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>60</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="academylabel">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>60</y>
+           <width>45</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>*学院：</string>
+         </property>
+         <property name="buddy">
+          <cstring>acacombo</cstring>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="numedit">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>110</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="QQedit">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>210</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="QQlabel">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>210</y>
+           <width>21</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>QQ:：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="VXlabel">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>210</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>微信：</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="VXedit">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>210</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>160</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>*住址：</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="addedit">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>160</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="emailedit">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>160</y>
+           <width>171</width>
+           <height>21</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>160</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>*邮箱：</string>
+         </property>
+        </widget>
+       </widget>
+       <zorder>whitebackground</zorder>
+       <zorder>widget_4</zorder>
+       <zorder>addokbutton</zorder>
+      </widget>
+      <widget class="QLabel" name="addtitle">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>50</y>
+         <width>211</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/new/prefix1/C:/Users/86178/Desktop/MailList_photos/addtitle.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/addtitle.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="findStudent">
+      <widget class="QLabel" name="findlabel">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>70</y>
+         <width>231</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/findtitle.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="findBack">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1341</width>
+         <height>801</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/find_back.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="search_btn">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>240</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>search</string>
+       </property>
+       <property name="shortcut">
+        <string>Return</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="find_tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>290</y>
+         <width>971</width>
+         <height>431</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="to_del_btn">
+       <property name="geometry">
+        <rect>
+         <x>1080</x>
+         <y>30</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="del_in_find_btn">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>240</y>
+         <width>93</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="serchEdit">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>240</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>190</y>
+         <width>201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>输入姓名/学号：</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="change_btn">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>240</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>修改</string>
+       </property>
+      </widget>
+      <zorder>findBack</zorder>
+      <zorder>findlabel</zorder>
+      <zorder>search_btn</zorder>
+      <zorder>find_tableWidget</zorder>
+      <zorder>to_del_btn</zorder>
+      <zorder>del_in_find_btn</zorder>
+      <zorder>serchEdit</zorder>
+      <zorder>label_6</zorder>
+      <zorder>change_btn</zorder>
+     </widget>
+     <widget class="QWidget" name="broStudent">
+      <widget class="QLabel" name="brolabel">
+       <property name="geometry">
+        <rect>
+         <x>-3</x>
+         <y>-6</y>
+         <width>1341</width>
+         <height>801</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/stabagrou.webp</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="brotablewidget">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>170</y>
+         <width>911</width>
+         <height>571</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="brotitle">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>110</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/title.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bro_pre">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>710</y>
+         <width>51</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bro_next">
+       <property name="geometry">
+        <rect>
+         <x>1040</x>
+         <y>710</y>
+         <width>51</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="pageText">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>710</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="delStudent">
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>-100</x>
+         <y>0</y>
+         <width>1401</width>
+         <height>831</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="delback">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>0</y>
+          <width>1301</width>
+          <height>791</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/delBack.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="del_tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>320</y>
+          <width>821</width>
+          <height>371</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="all_choose_btn">
+        <property name="geometry">
+         <rect>
+          <x>620</x>
+          <y>280</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>全选</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cancel_all_btn">
+        <property name="geometry">
+         <rect>
+          <x>620</x>
+          <y>240</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>取消勾选</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_col">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>240</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>不限</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>计算机学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>心理学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>外文学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>马克思学院</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>历史学院</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sel">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>280</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>无</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>学号升序</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>学号降序</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>姓名升序</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>姓名降序</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sex2">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>200</y>
+          <width>111</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>不限</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>男</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>女</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QPushButton" name="del_in_del_btn">
+        <property name="geometry">
+         <rect>
+          <x>860</x>
+          <y>280</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>删除</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dellabel">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>100</y>
+          <width>211</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/delTitle.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="find_btn">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>280</y>
+          <width>93</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>筛选</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="to_find_btn">
+        <property name="geometry">
+         <rect>
+          <x>1180</x>
+          <y>30</y>
+          <width>121</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>200</y>
+          <width>68</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>性别：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>240</y>
+          <width>68</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>学院：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>270</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>排序方式：</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="brosta">
+      <widget class="QLabel" name="statitlelabel">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>30</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/statiltle.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="stalabel">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1301</width>
+         <height>791</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/stabackground.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="sumWidget">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>160</y>
+         <width>691</width>
+         <height>131</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="sumtitle">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>160</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/sumtitle.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="acastalabel">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>410</y>
+         <width>241</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/acastalabel.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="acaWidget">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>410</y>
+         <width>691</width>
+         <height>201</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="prebtn">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>510</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="nextbtn">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>510</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="academy">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>500</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(255, 79, 79);</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <zorder>stalabel</zorder>
+      <zorder>statitlelabel</zorder>
+      <zorder>sumWidget</zorder>
+      <zorder>sumtitle</zorder>
+      <zorder>acastalabel</zorder>
+      <zorder>acaWidget</zorder>
+      <zorder>prebtn</zorder>
+      <zorder>nextbtn</zorder>
+      <zorder>academy</zorder>
+     </widget>
+     <widget class="QWidget" name="setting">
+      <widget class="QLabel" name="setlabel">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>10</y>
+         <width>141</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../MailList_photos/1648038518(1).png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bandBtn">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>91</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>彩蛋</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="addAcaWidget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>190</y>
+         <width>391</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <widget class="QPushButton" name="addAcademy">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>9</y>
+          <width>93</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>添加学院</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>10</y>
+          <width>201</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>70</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>70</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="Line" name="line">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>300</y>
+         <width>1301</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>190</y>
+         <width>391</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <widget class="QPushButton" name="lead_in_btn">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>93</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>导入</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="importLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>20</y>
+          <width>271</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="lead_out_btn">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>93</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>导出</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="out_putlLineEdit">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>70</y>
+          <width>271</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="setTitle">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>30</y>
+         <width>251</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/setTitle.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>1311</width>
+         <height>791</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/setBack.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_2">
+       <property name="geometry">
+        <rect>
+         <x>429</x>
+         <y>170</y>
+         <width>31</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>1301</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_4">
+       <property name="geometry">
+        <rect>
+         <x>895</x>
+         <y>170</y>
+         <width>31</width>
+         <height>311</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>465</y>
+         <width>1301</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_6">
+       <property name="geometry">
+        <rect>
+         <x>429</x>
+         <y>320</y>
+         <width>31</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="updateLog">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>360</y>
+         <width>91</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>更新日志</string>
+       </property>
+      </widget>
+      <widget class="Line" name="line_7">
+       <property name="geometry">
+        <rect>
+         <x>-7</x>
+         <y>170</y>
+         <width>20</width>
+         <height>311</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_8">
+       <property name="geometry">
+        <rect>
+         <x>1280</x>
+         <y>170</y>
+         <width>41</width>
+         <height>311</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="help">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>360</y>
+         <width>93</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>帮助文档</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="removeRepeat">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>200</y>
+         <width>93</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>去除重复</string>
+       </property>
+      </widget>
+      <zorder>label_7</zorder>
+      <zorder>setlabel</zorder>
+      <zorder>bandBtn</zorder>
+      <zorder>addAcaWidget</zorder>
+      <zorder>line</zorder>
+      <zorder>widget_6</zorder>
+      <zorder>setTitle</zorder>
+      <zorder>line_2</zorder>
+      <zorder>line_3</zorder>
+      <zorder>line_4</zorder>
+      <zorder>line_5</zorder>
+      <zorder>line_6</zorder>
+      <zorder>updateLog</zorder>
+      <zorder>line_7</zorder>
+      <zorder>line_8</zorder>
+      <zorder>help</zorder>
+      <zorder>removeRepeat</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>201</width>
+       <height>791</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <widget class="QPushButton" name="brobutton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stabutton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>230</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="setbutton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>300</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="exitbutton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>370</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="findbutton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="addbutton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-40</y>
+        <width>201</width>
+        <height>1001</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="photo.qrc">:/new/prefix1/MailList_photos/btnBackground.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>brobutton</zorder>
+     <zorder>stabutton</zorder>
+     <zorder>setbutton</zorder>
+     <zorder>exitbutton</zorder>
+     <zorder>findbutton</zorder>
+     <zorder>addbutton</zorder>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>nameedit</tabstop>
+  <tabstop>sexcombo</tabstop>
+  <tabstop>acacombo</tabstop>
+  <tabstop>numedit</tabstop>
+  <tabstop>teleedit</tabstop>
+  <tabstop>addokbutton</tabstop>
+  <tabstop>findbutton</tabstop>
+  <tabstop>addbutton</tabstop>
+  <tabstop>brotablewidget</tabstop>
+  <tabstop>brobutton</tabstop>
+  <tabstop>stabutton</tabstop>
+  <tabstop>setbutton</tabstop>
+  <tabstop>exitbutton</tabstop>
+  <tabstop>sumWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="photo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
