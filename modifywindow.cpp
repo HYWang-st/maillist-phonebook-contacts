@@ -40,7 +40,7 @@ modifyWindow::modifyWindow(QWidget *parent) :
     ui->sexComboBox->addItems(sexList);
     QStringList acaList;
     ui->acaComboBox->addItem(p->academy);
-    for(int i=0;academyName[i]!='\0';i++)
+    for(int i=0;academyName[i]!="\0";i++)
     {
         if(academyName[i]!=p->academy)
                 ui->acaComboBox->addItem(academyName[i]);
