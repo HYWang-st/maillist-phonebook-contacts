@@ -1190,11 +1190,11 @@ void data_lead_in(QString str)
         current->sex=word[1];
         current->num=word[2];
         current->academy=word[3];
-        for(int i=0,j=0;academyName[i]!='\0';i++)//若导入的学生里有新的学院，则添加新学院的选项
+        for(int i=0,j=0;academyName[i]!="\0";i++)//若导入的学生里有新的学院，则添加新学院的选项
         {
             if(current->academy!=academyName[i])
                 j++;
-            if(j==i+1&&academyName[i+1]=='\0')
+            if(j==i+1&&academyName[i+1]=="\0")
                 academyName[++i]=word[3];
         }
         current->telenum=word[4];
